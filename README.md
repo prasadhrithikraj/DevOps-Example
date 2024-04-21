@@ -33,6 +33,7 @@ RUN apt-get update  -qq \
 RUN usermod -aG docker jenkins
 ```
 
+
 Just place this Dockerfile in any folder and run the following commands:
 
 $ docker image build -t jenkins-docker .
